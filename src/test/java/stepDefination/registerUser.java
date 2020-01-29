@@ -131,7 +131,6 @@ public class registerUser {
 
 		@Then("^User should login successfully$")
 		public void sucLogged() {
-			driver.findElement(By.name("Submit")).click();
 			System.out.println("User registered successfully");
 
 	}

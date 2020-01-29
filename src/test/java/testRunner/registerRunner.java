@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "Feature", glue = { "stepDefination" },
-tags= "@login")
+tags= "@login" , plugin = {"pretty" , "json:target/cucumber.json"})
 
 public class registerRunner {
 
